@@ -1,0 +1,63 @@
+@import "web.css";
+.contactform h1{
+ font-family: sans-serif;
+ padding-top: 104px;
+ /* text-align: center; */
+ color: darkslategrey;
+ padding: 44px 0px;
+}
+.contactform{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contactform form div
+{
+    padding: 10px 0px;
+    flex-direction: column;
+    display: flex;
+}
+.contactform form div input
+{
+    
+    width:26vw ;
+    border-radius:5px ;
+    margin:6px 0 0 0;
+    padding: 3px;
+      
+}
+#form-check
+{flex-direction: row;
+
+}
+#form-check input
+{width: 24px; ;
+    margin: 3px 0px;
+
+}
+
+#emailHelp{
+    color: midnightblue;
+    font-size:11px;
+    margin: 0 5px;
+}
+.btn{
+    color: white;
+    background-color: dodgerblue;
+    font-size: 16px ;
+    font-weight: bold;
+    padding :5px 10px;
+    border-radius : 22px ;
+    margin: 0 25px ;
+    cursor: pointer; 
+}
+.btn:hover{
+    color:dodgerblue;
+    background-color: white; 
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer div{
+    font-size: 15px;
+       padding: 8px 17px 16px 12px;
+}

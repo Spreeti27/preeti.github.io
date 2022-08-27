@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&family=New+Rocker&display=swap');
+*{
+    margin:0;
+    padding:0px;
+
+}
+.side{
+    background-color: rgb(211, 216, 214);
+    width: 434px;
+  height: 100vh;
+    font-family: 'New Rocker', cursive; 
+}
+.side nav{
+    padding: 45px;
+}
+.side nav li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 35px 0;
+}
+.side nav li a{
+   text-decoration: none;
+   color: black;
+}
+.main{
+    /* background-color: blueviolet; */
+    width:80vw;
+    height: 100vh;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /* background-color: darkcyan; */
+    width:80vw;
+    height: 58vh;
+    margin: 110px auto;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    height: 70vh;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+}
+.hello{
+font-size: 65px;
+
+}
+.name{
+font-size: 55px;
+font-weight: bold;
+font-family: 'New Rocker', cursive;
+}
+.about{
+font-size: 40px;
+}
+.moreabout{
+    margin-top: 35px;
+    font-size: 22px;
+    font-family: 'Libre Baskerville', serif; 
+}
+.buttons{
+    margin-top: 36px;
+}
+.buttons button{
+color: white;
+background-color: dodgerblue;
+font-size: 21px ;
+font-weight: bold;
+padding :9px 14px;
+border-radius : 22px ;
+margin: 0 32px ;
+cursor: pointer;
+
+}
+.buttons button:hover{
+    color:dodgerblue;
+    background-color: white; 
+}
+.devpic img{
+    height: 58vh;
+}
